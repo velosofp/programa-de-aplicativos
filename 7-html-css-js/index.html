@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#101b17">
+    <title>Gerador de Tabuada | Aritmancia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="ceu-mistico" aria-hidden="true">
+        <img class="castelo-fundo" src="https://images.unsplash.com/photo-1506377585622-bedcbb027afc?auto=format&fit=crop&w=2000&q=85" alt="">
+        <span class="lua">☾</span>
+        <span class="voo dragao">🐉</span>
+        <span class="voo bruxo">🧙‍♂️🧹</span>
+    </div>
+
+    <main class="grimorio">
+        <div class="selo" aria-hidden="true">✦</div>
+        <p class="disciplina">Aula de aritmancia</p>
+        <h1>Gerador de Tabuada</h1>
+        <p class="introducao">Descubra os encantamentos escondidos nos numeros.</p>
+
+        <div class="controle-magico">
+            <label for="numero-input">Escolha um numero</label>
+            <div class="linha-controles">
+                <input type="number" id="numero-input" placeholder="Ex.: 5" inputmode="numeric">
+                <button id="btn-gerar" type="button">
+                    <span aria-hidden="true">✧</span>
+                    Gerar tabuada
+                </button>
+            </div>
+            <p class="dica">Um toque de magia, dez resultados.</p>
+        </div>
+
+        <div id="resultado-aqui" aria-live="polite"></div>
+        <div class="rodape-magico" aria-hidden="true">✧ &nbsp; ✦ &nbsp; ✧</div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
